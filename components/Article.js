@@ -160,6 +160,32 @@ const article2 = {
 };
 
 data.unshift(article2);
+
+const article3 = {
+  title: "Javascript for Cats 2",
+  firstParagraph:
+    "JavaScript is a programming language or, in other words, a means by which a computer is instructed to do things. Just the same as one controls humans with hisses and meows, one controls computers with statements written in a programming language. All web browsers understand JavaScript and you can take advantage of that to make web pages do crazy things!",
+  date: "11/11/32",
+  secondParagraph:
+    "You will always land on your feet — even when programming! Unlike pawing over a glass of water on your laptop, nothing in these tutorials will damage your computer in any way, even if you mistype a command or click the wrong button. Like cats, computer programmers make mistakes all time: misspelling things, forgetting quotes or brackets, and being forgetful of how basic functions (and yarn, lasers) work. Programmers care more about making it work eventually rather than trying to make it work the very first time. The best way to learn is by making mistakes!",
+  thirdParagraph:
+    "So don't be a scaredy-cat! The absolute worst thing that will happen is that you might have to refresh this page in your web browser if you get stuck. Don't worry though, this will happen very rarely.",
+};
+
+data.unshift(article3);
+
+const article4 = {
+  title: "Javascript for Cats: Strings",
+  firstParagraph:
+    "Since I am a cat I want to replace every instance of the word dog on the Internet with those blasted dogs. First go into your console and type in a few sentences that contain the word dog at least once. In JavaScript a bunch of letters, numbers, words or anything else is known as a String (as in a string of characters). Strings have to begin AND end with a quotation mark. Single ' or double quotes is fine, just make sure you use the same at the beginning as you do at the end.!",
+  date: "11/11/32",
+  secondParagraph:
+    "See the nasty error message? Don't worry - you didn't break any laws. SyntaxError ILLEGAL is just the way it sounds when robots tell you that your program has a problem. The first two sentences had matching quotation marks at the beginning and end, but when I mixed single and double quotation marks it freaked out on me.",
+  thirdParagraph:
+    "OK, to fix up one of these sentences (by replacing dog with our enhanced version) we have to first save the original sentence so that we can call it up later when we do our replacing magic. Notice how the string gets repeated in red when we type it into the console? This is because we haven't told it to save the sentence anywhere so it just gives it right back (or it gives us an Error back if we messed something up).",
+};
+
+data.unshift(article4);
 /*
   Step 4: Outside your function now, loop over the data. At each iteration you'll use your component
   to create a div.article element and append it to the DOM inside div.articles (see index.html). */
